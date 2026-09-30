@@ -1,7 +1,7 @@
 <p align="center">
   <a href="#-installing">DOWNLOAD</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="#screenshots">SCREENSHOTS</a>
+  <a href="#-screenshots">SCREENSHOTS</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="../../releases">RELEASE NOTES</a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
@@ -22,16 +22,27 @@
 
 Point it at the folders already sitting on your drive and it becomes the whole thing: home shelves, daily mixes, synced lyrics, radio, Wrapped, the lot. No ads, no account, no monthly bill, and nothing phoning home.
 
-[![Platform](https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-2ea043)](#-system-requirements)
-[![Version](https://img.shields.io/badge/version-3.1.0-22c55e)](../../releases/latest)
-[![Price](https://img.shields.io/badge/price-free-gold)](../../releases/latest)
-[![Install](https://img.shields.io/badge/install-per--user%2C%20no%20admin-8a63d2)](#-installing)
-[![Ads](https://img.shields.io/badge/ads-none-ff6b6b)](#-privacy)
-
-<a href="../../releases/latest/download/userfy-installer.exe"><img src="./assets/icon.png" width="25" height="25" alt="userfy" style="vertical-align: middle;"> **Download userfy →**</a>
-
 </div>
 
+<p align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/version-1.0.0-22c55e" alt="Version 1.0.0"></a>
+  <a href="#-system-requirements"><img src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011-2ea043" alt="Windows 10 and 11"></a>
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/price-free-gold" alt="Free"></a>
+  <a href="#-installing"><img src="https://img.shields.io/badge/install-per%20user%2C%20no%20admin-8a63d2" alt="Per-user install, no admin"></a>
+  <a href="#-privacy"><img src="https://img.shields.io/badge/ads-none-ff6b6b" alt="No ads"></a>
+</p>
+
+<p align="center">
+  <a href="../../releases/latest/download/userfy-installer.exe"><img src="https://img.shields.io/badge/Download-userfy%201.0.0-22c55e?style=for-the-badge&logo=windows&logoColor=white" alt="Download userfy 1.0.0" height="40"></a>
+</p>
+
+<p align="center"><sub>Windows 10 and 11, 64-bit &nbsp;•&nbsp; about 6 MB &nbsp;•&nbsp; prefer an MSI? <a href="../../releases/latest/download/userfy-installer.msi">grab that instead</a></sub></p>
+
+<p align="center">
+  <img src="./Screenshots/home.png" alt="The Home page: Jump back in, Made For You, Your top mixes and Recently played shelves" width="900">
+</p>
+
+> [!NOTE]
 > This repository is the **download and issue tracker** for userfy. The app itself is closed source, so there is no code here - just the installer, the release notes, and somewhere to shout at me when it breaks.
 
 ---
@@ -40,100 +51,160 @@ Point it at the folders already sitting on your drive and it becomes the whole t
 
 Every music app wants to rent you the music. userfy assumes you already own it. It reads your library once, remembers it, and then gives you the app you'd actually want to open every day.
 
-- **It looks and feels like the real thing** - sidebar, Your Library, home shelves, a now playing rail with lyrics under the art, a queue you can drag around. If you know where something is in Spotify, it's in the same place here
-- **Made For You, from your own plays** - Daily Mixes, a daylist that changes with the time of day, On Repeat, Repeat Rewind, and "top" mixes built round your favourite artists, genres and decades. All worked out on your PC from what you actually listen to
-- **Radio that knows your library** - start a radio off any song or artist and it lines up the ones that fit: same genre, same era, similar tempo, songs you tend to play back to back. Autoplay keeps it going when the queue runs out
-- **Synced lyrics** - karaoke-style lyrics in the rail and full screen, from `.lrc` files or lyrics already in your tags. Click a line to jump to it
-- **Wrapped, every December 24th** - your year in music, as an animated story that moves in time to your top song. Save the slides, or save the whole thing as a video
-- **Stream what you don't own** - sign in with your own Tidal account and it slots straight into search, artist pages and playlists. Like it, save it, or download it as a tagged FLAC into your library
-- **Bring your Spotify playlists** - paste a playlist link and you get the same playlist, cover and all, filled from your library first and Tidal for the gaps
-- **An AI DJ that runs on your own PC** - optional, off until you switch it on. It talks between songs in a real voice, picks what's next, and never sends a thing anywhere
-- **Sounds as good as your files do** - gapless, real crossfade, smart transitions that skip dead air, volume levelling, a 10-band EQ, playback speed, and a badge that tells you exactly what you're hearing (FLAC 24/96, ALAC, and so on)
-- **Podcasts and audiobooks too** - follow shows, download episodes, and play audiobooks with chapters and a sleep timer that stops at the end of one
-- **It keeps itself up to date** - Settings → About checks this page for a newer version and tells you what changed
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🏠 Feels like the real thing</h3>
+      Sidebar, Your Library, home shelves, a now playing rail with lyrics under the art, a queue you can drag around. If you know where something is in Spotify, it's in the same place here.
+    </td>
+    <td width="33%" valign="top">
+      <h3>✨ Made For You</h3>
+      Daily Mixes, a daylist that changes with the time of day, On Repeat, Repeat Rewind, and top mixes of your favourite artists, genres and decades. Worked out on your PC from what you actually play.
+    </td>
+    <td width="33%" valign="top">
+      <h3>📻 Radio that knows you</h3>
+      Start a radio off any song or artist and it lines up what fits: same genre, same era, similar tempo, songs you play back to back. Autoplay keeps it going when the queue runs out.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🎤 Synced lyrics</h3>
+      Karaoke-style lyrics in the rail and full screen, from <code>.lrc</code> files or lyrics already in your tags. Click a line to jump to it.
+    </td>
+    <td valign="top">
+      <h3>🎁 Wrapped, every Dec 24th</h3>
+      Your year in music as an animated story that moves in time to your top song. Save the slides, or the whole thing as a video.
+    </td>
+    <td valign="top">
+      <h3>🌊 Stream what you don't own</h3>
+      Sign in with your own Tidal account and it slots into search, artist pages and playlists. Like it, save it, or download it as a tagged FLAC.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🔁 Bring your Spotify playlists</h3>
+      Paste a playlist link and get the same playlist, cover and all, filled from your library first and Tidal for the gaps.
+    </td>
+    <td valign="top">
+      <h3>🤖 An AI DJ on your own PC</h3>
+      Optional and off until you switch it on. It talks between songs in a real voice, picks what's next, and never sends a thing anywhere.
+    </td>
+    <td valign="top">
+      <h3>🎚️ Sounds as good as your files</h3>
+      Gapless, real crossfade, smart transitions, volume levelling, a 10-band EQ, and a badge that tells you exactly what you're hearing.
+    </td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <h3>🎙️ Podcasts and audiobooks</h3>
+      Follow shows, download episodes, and play audiobooks by the chapter, with a sleep timer that stops at the end of one.
+    </td>
+    <td valign="top">
+      <h3>💿 Audio CDs</h3>
+      Play a disc, rip it into your library with tags and cover art, or burn a playlist to a blank CD.
+    </td>
+    <td valign="top">
+      <h3>🔄 Keeps itself up to date</h3>
+      Checks for a new version on launch, downloads it, checks it against GitHub's checksum, and installs it with one click.
+    </td>
+  </tr>
+</table>
 
 ---
-
-<a id="screenshots"></a>
 
 ## 🖥️ Screenshots
 
 Straight out of the app. Nothing here is a mock-up.
 
+### Your library
+
+<table>
+  <tr>
+    <td width="50%"><img src="./Screenshots/playlist.png" alt="A playlist page with its cover, colour-matched header and track list"></td>
+    <td width="50%"><img src="./Screenshots/liked-songs.png" alt="Liked Songs with genre filter chips"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Playlists, with the header coloured off the cover</sub></td>
+    <td align="center"><sub>Liked Songs, filtered by genre in one click</sub></td>
+  </tr>
+  <tr>
+    <td><img src="./Screenshots/artist.png" alt="An artist page with Popular, Discography, Appears on and Fans also like"></td>
+    <td><img src="./Screenshots/search.png" alt="Search results mixing library and Tidal"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Artist pages, your copies and Tidal's side by side</sub></td>
+    <td align="center"><sub>One search box for everything</sub></td>
+  </tr>
+</table>
+
+### Now playing
+
 <p align="center">
-  <img src="./Screenshots/home.png" alt="The Home page: Jump back in, Made For You, Your top mixes and Recently played shelves" width="820">
+  <img src="./Screenshots/lyrics.png" alt="Full-screen synced lyrics" width="900">
+  <br>
+  <sub>Full-screen lyrics. Press <kbd>Y</kbd>.</sub>
 </p>
 
-<details>
-<summary><h3 align="center">Your library</h3></summary>
-<p align="center">
-  <img src="./Screenshots/playlist.png" alt="A playlist page with its cover, colour-matched header and track list">
-  <em>Playlists, with the header coloured off the cover.</em>
-  <br><br>
-  <img src="./Screenshots/liked-songs.png" alt="Liked Songs with genre filter chips">
-  <em>Liked Songs, filtered by genre in one click.</em>
-  <br><br>
-  <img src="./Screenshots/artist.png" alt="An artist page with Popular, Discography, Appears on and Fans also like">
-  <em>Artist pages, your copies and Tidal's side by side.</em>
-  <br><br>
-  <img src="./Screenshots/search.png" alt="Search results mixing library and Tidal">
-  <em>One search box for everything.</em>
-</p>
-</details>
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%"><img src="./Screenshots/now-playing.png" alt="The now playing rail: art, synced lyrics, About the artist, Credits, Next in queue" width="220"></td>
+    <td align="center" valign="top" width="34%"><img src="./Screenshots/audio-effects.png" alt="Audio effects: EQ, balance, speed, normalization and sleep timer" width="260"></td>
+    <td align="center" valign="middle" width="33%"><img src="./Screenshots/mini-player.png" alt="The mini player floating over other windows" width="280"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>The rail: art, lyrics, the artist, credits, what's next</sub></td>
+    <td align="center"><sub>EQ, speed, levelling and a sleep timer</sub></td>
+    <td align="center"><sub>The mini player, for when you're working</sub></td>
+  </tr>
+</table>
 
-<details>
-<summary><h3 align="center">Now playing</h3></summary>
-<p align="center">
-  <img src="./Screenshots/now-playing.png" alt="The now playing rail: art, synced lyrics, About the artist, Credits, Next in queue">
-  <em>The rail: art, lyrics, the artist, credits, and what's next.</em>
-  <br><br>
-  <img src="./Screenshots/lyrics.png" alt="Full-screen synced lyrics">
-  <em>Full-screen lyrics. Press Y.</em>
-  <br><br>
-  <img src="./Screenshots/mini-player.png" alt="The mini player floating over other windows">
-  <em>The mini player, for when you're working.</em>
-  <br><br>
-  <img src="./Screenshots/audio-effects.png" alt="Audio effects: EQ, crossfade, speed and sleep timer">
-  <em>EQ, crossfade, speed and sleep timer.</em>
-</p>
-</details>
+### Made for you
 
-<details>
-<summary><h3 align="center">Made for you</h3></summary>
 <p align="center">
-  <img src="./Screenshots/made-for-you.png" alt="A Daily Mix page">
-  <em>Daily Mixes, rebuilt every day from what you play.</em>
-  <br><br>
-  <img src="./Screenshots/ai-dj.png" alt="The AI DJ">
-  <em>The AI DJ, talking you into the next one.</em>
-  <br><br>
-  <img src="./Screenshots/ai-playlist.png" alt="AI Playlist: a prompt turned into a playlist">
-  <em>Describe a vibe, get a playlist.</em>
-  <br><br>
-  <img src="./Screenshots/wrapped.png" alt="userfy Wrapped">
-  <em>Wrapped, on December 24th.</em>
-  <br><br>
-  <img src="./Screenshots/stats.png" alt="The Stats page">
-  <em>And the numbers, any day of the year.</em>
+  <img src="./Screenshots/made-for-you.png" alt="The Made For You shelf: DJ, daylist and Daily Mixes" width="800">
+  <br>
+  <sub>The DJ, your daylist and Daily Mixes, rebuilt every day from what you play.</sub>
 </p>
-</details>
 
-<details>
-<summary><h3 align="center">Tidal, podcasts and audiobooks</h3></summary>
-<p align="center">
-  <img src="./Screenshots/tidal.png" alt="A Tidal album page with a download button">
-  <em>A Tidal album, one click from being yours.</em>
-  <br><br>
-  <img src="./Screenshots/podcasts.png" alt="A podcast show page with episodes">
-  <em>Podcasts, with your place saved in every episode.</em>
-  <br><br>
-  <img src="./Screenshots/audiobooks.png" alt="An audiobook with its chapter list">
-  <em>Audiobooks, by the chapter.</em>
-  <br><br>
-  <img src="./Screenshots/settings.png" alt="The Settings page">
-  <em>Settings, for when you want it your way.</em>
-</p>
-</details>
+<table>
+  <tr>
+    <td width="50%"><img src="./Screenshots/ai-dj.png" alt="The AI DJ"></td>
+    <td width="50%"><img src="./Screenshots/ai-playlist.png" alt="AI Playlist: a prompt turned into a playlist"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>The AI DJ, talking you into the next one</sub></td>
+    <td align="center"><sub>Describe a vibe, get a playlist</sub></td>
+  </tr>
+  <tr>
+    <td><img src="./Screenshots/wrapped.png" alt="userfy Wrapped"></td>
+    <td><img src="./Screenshots/stats.png" alt="The Stats page"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Wrapped, on December 24th</sub></td>
+    <td align="center"><sub>And the numbers, any day of the year</sub></td>
+  </tr>
+</table>
+
+### Tidal, podcasts and audiobooks
+
+<table>
+  <tr>
+    <td width="50%"><img src="./Screenshots/tidal.png" alt="A Tidal album page with a download button"></td>
+    <td width="50%"><img src="./Screenshots/podcasts.png" alt="Podcasts: Continue listening and Your shows"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>A Tidal album, one click from being yours</sub></td>
+    <td align="center"><sub>Podcasts, with your place saved in every episode</sub></td>
+  </tr>
+  <tr>
+    <td><img src="./Screenshots/audiobooks.png" alt="Audiobooks: Continue listening and Your books"></td>
+    <td><img src="./Screenshots/settings.png" alt="Settings, on the Appearance tab"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Audiobooks, right where you left off</sub></td>
+    <td align="center"><sub>Settings, for when you want it your way</sub></td>
+  </tr>
+</table>
 
 ---
 
@@ -145,16 +216,16 @@ Straight out of the app. Nothing here is a mock-up.
 
 Prefer a machine-wide install in `Program Files`? The same release carries **`userfy-installer.msi`**, which needs admin once and keeps your taskbar pin across updates.
 
-Uninstall it whenever you like. Your music is never touched, and neither are your playlists, likes and history until you delete them yourself.
+After that, userfy updates itself. Uninstall it whenever you like: your music is never touched, and neither are your playlists, likes and history until you delete them yourself.
 
 | | |
 |---|---|
-| **File** | `userfy-installer.exe` (or `userfy-installer.msi`) |
-| **Size** | About 6 MB to download |
-| **Version** | 3.1.0 |
-| **Runs on** | Windows 10 and 11, 64-bit |
-| **Account** | None. There's nothing to sign up for |
-| **Music included** | None. You bring that |
+| 📦 **File** | `userfy-installer.exe` (or `userfy-installer.msi`) |
+| 💾 **Size** | About 6 MB to download |
+| 🏷️ **Version** | 1.0.0 |
+| 🪟 **Runs on** | Windows 10 and 11, 64-bit |
+| 👤 **Account** | None. There's nothing to sign up for |
+| 🎵 **Music included** | None. You bring that |
 
 ---
 
@@ -215,7 +286,7 @@ Switch it on in **Settings → AI**, pick a folder for it, and it downloads a sm
 ## ✨ Everything Else
 
 <details>
-<summary><b>Playback</b></summary>
+<summary><b>🎚️ Playback</b></summary>
 
 - Gapless playback and a real crossfade, where the next song overlaps the last
 - **Auto transitions** that trim trailing silence and don't stack a fade on a song that already fades out
@@ -231,7 +302,7 @@ Switch it on in **Settings → AI**, pick a folder for it, and it downloads a sm
 </details>
 
 <details>
-<summary><b>Library and playlists</b></summary>
+<summary><b>📚 Library and playlists</b></summary>
 
 - Playlists, playlist folders, and **smart playlists** that fill themselves from rules
 - Drag songs onto playlists, drag to reorder, and **Undo** when you get it wrong
@@ -245,7 +316,7 @@ Switch it on in **Settings → AI**, pick a folder for it, and it downloads a sm
 </details>
 
 <details>
-<summary><b>Getting around</b></summary>
+<summary><b>🧭 Getting around</b></summary>
 
 - `Ctrl+K` opens a command palette that goes anywhere and does anything
 - `Ctrl+F` searches the page you're on
@@ -271,7 +342,7 @@ It only goes online for something you asked for:
 | You press **Find photo online** on an artist | Deezer or TheAudioDB, for that one picture |
 | You turn on Discord presence | Discord on your PC, plus Deezer for the cover image |
 | You turn on the AI features | Hugging Face and GitHub, once, to download the model and voices |
-| You press **Check for updates** | This page |
+| It checks for updates (on launch, or when you press **Check for updates**) | This page |
 
 ---
 
@@ -290,8 +361,6 @@ It only goes online for something you asked for:
 ---
 
 ## 🙏 Credits and Third Party Work
-
-userfy is closed source for now, which is exactly why this list matters: you can't read the code to see what's in it, so it's written out here instead. If something of yours belongs on this list and isn't on it, open an issue and it goes on.
 
 | | |
 |---|---|
@@ -330,7 +399,7 @@ Open an [issue](../../issues/new/choose) and say what you were doing, what happe
 ---
 
 <div align="center">
-  <img src="./assets/icon.png" width="72">
+  <img src="./assets/icon.png" width="72" alt="userfy">
 
 **Your music. Your app.**
 
