@@ -55,6 +55,12 @@ Keep it on top of everything else with the mini player:
   <img src="./Screenshots/mini-player.png" alt="The userfy mini player" width="400">
 </p>
 
+Every December 24th, userfy wraps up your year in music, moving in time to your top song:
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131" width="640" controls></video>
+</p>
+
 ## Download
 
 Grab the latest installer from the [Releases page](../../releases/latest).
