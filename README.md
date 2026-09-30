@@ -23,17 +23,17 @@
   <img src="./Screenshots/home.png" alt="userfy - Home" width="100%">
 </p>
 
-userfy comes with dark and light themes and four accent colours:
+userfy comes with five themes (userfy, Brutal, Aqua Y2K, Terminal and Frutiger Aero), each in light, dark and OLED, with five colour schemes:
 
 <p align="center">
-  <img src="./Screenshots/theme-dark-caramel.png" alt="Caramel accent, dark theme" width="32%">
-  <img src="./Screenshots/theme-dark-blue.png" alt="Blue accent, dark theme" width="32%">
-  <img src="./Screenshots/theme-dark-green.png" alt="Green accent, dark theme" width="32%">
+  <img src="./Screenshots/theme-userfy.png" alt="The userfy theme, dark, caramel" width="32%">
+  <img src="./Screenshots/theme-brutal.png" alt="The Brutal theme, light, pink" width="32%">
+  <img src="./Screenshots/theme-aqua.png" alt="The Aqua Y2K theme, light, blue" width="32%">
 </p>
 <p align="center">
-  <img src="./Screenshots/theme-light-caramel.png" alt="Caramel accent, light theme" width="32%">
-  <img src="./Screenshots/theme-light-pink.png" alt="Pink accent, light theme" width="32%">
-  <img src="./Screenshots/theme-light-blue.png" alt="Blue accent, light theme" width="32%">
+  <img src="./Screenshots/theme-terminal.png" alt="The Terminal theme, dark, green" width="32%">
+  <img src="./Screenshots/theme-aero.png" alt="The Frutiger Aero theme, light, blue" width="32%">
+  <img src="./Screenshots/theme-oled.png" alt="The userfy theme, OLED, crimson" width="32%">
 </p>
 
 | | |
