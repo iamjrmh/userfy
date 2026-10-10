@@ -67,7 +67,7 @@ Grab the latest installer from the [Releases page](../../releases/latest).
 
 | Platform | Formats |
 |----------|---------|
-| Windows 10 / 11 (64-bit) | `.exe` installer (per user, no admin), `.msi` |
+| Windows 10 / 11 (64-bit) | `.exe` installer (per user, no admin) |
 
 userfy updates itself after that. This repository is the download page and issue tracker; the app itself is closed source.
 
