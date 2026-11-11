@@ -84,16 +84,10 @@ Keep it on top of everything else with the mini player:
 Every December 24th, userfy wraps up your year in music, moving in time to your top song:
 
 <p align="center">
-  <img src="./Screenshots/wrapped.png" alt="userfy Wrapped" width="70%">
+  <a href="https://userfy.top/media/wrapped.mp4?v=11">
+    <img src="./Screenshots/wrapped.png" alt="userfy Wrapped" width="70%">
+  </a>
 </p>
-
-
-<p align="center">
-
-https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131
-
-</p>
-
 
 ### Lyrics
 
