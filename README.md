@@ -87,9 +87,13 @@ Every December 24th, userfy wraps up your year in music, moving in time to your 
   <img src="./Screenshots/wrapped.png" alt="userfy Wrapped" width="70%">
 </p>
 
+
 <p align="center">
-  <video src="https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131" width="640" controls></video>
+
+https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131
+
 </p>
+
 
 ### Lyrics
 
