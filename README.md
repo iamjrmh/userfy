@@ -8,21 +8,144 @@
 
 # userfy
 
+**Spotify for the music you already own.**
+
+Point it at your folders and get home shelves, daily mixes, synced lyrics, radio and Wrapped,<br>
+with no ads, no account and nothing online you didn't turn on.
+
+Runs on Windows, Mac, Linux, iPhone, Android and your TV, and your phone stays in sync with your PC.
+
+<a href="../../releases/latest"><b>Download</b></a> &nbsp;·&nbsp; <a href="https://userfy.top"><b>userfy.top</b></a> &nbsp;·&nbsp; <a href="https://discord.gg/gtZ3WenvcJ"><b>Discord</b></a>
+
 </div>
-
-<div align="center">
-
-  userfy is Spotify for the music you already own. Point it at your folders and get home shelves, daily mixes, synced lyrics, radio and Wrapped, with no ads, no account and nothing online you didn't turn on.<br>
-  Runs on Windows, Mac, Linux, iPhone, Android and your TV, and your phone stays in sync with your PC.<br><br>
-  <a href="https://userfy.top"><b>userfy.top</b></a> &nbsp;·&nbsp; <a href="https://discord.gg/gtZ3WenvcJ"><b>Discord</b></a>
-
-</div>
-
-## Screenshots
 
 <p align="center">
   <img src="./Screenshots/home.png" alt="userfy - Home" width="100%">
 </p>
+
+<div align="center">
+
+[Download](#download) &nbsp;·&nbsp; [Features](#features) &nbsp;·&nbsp; [Themes](#themes) &nbsp;·&nbsp; [Privacy](#privacy) &nbsp;·&nbsp; [Bugs](#bugs) &nbsp;·&nbsp; [Credits](#credits)
+
+</div>
+
+## Download
+
+Grab the latest version for your device from the [Releases page](../../releases/latest).
+
+| Platform | Formats |
+|----------|---------|
+| **Windows** 10 / 11 (64-bit) | `.exe` installer (per user, no admin) |
+| **macOS** 10.15 or later (Intel and Apple silicon) | `.dmg` |
+| **Linux**, 64-bit PC or ARM64 (Raspberry Pi 4/5) | AppImage, `.deb` or `.rpm` |
+| **iPhone**, iOS 16 or later | installed from the PC or Mac app (Settings > About > Install on your phone), or the `.ipa` |
+| **Android** 10 or later | `.apk`, or installed from the PC or Mac app |
+| **Android TV** (64-bit) | the same `.apk`: it shows up in the TV's app row |
+
+userfy updates itself after that.
+
+> This repository is the download page and issue tracker; the app itself is closed source.
+
+## Features
+
+### Your library
+
+- Plays the music already on your drives: MP3, FLAC, WAV, Ogg, Opus and M4A (AAC and ALAC)
+- Artist pages, album pages, credits and a now playing rail
+- Playlists, folders, smart playlists, drag and drop, undo and Recently deleted
+- Gapless playback, crossfade, volume leveling, a 10-band EQ and a sleep timer
+- Mini player, media keys, global hotkeys and a command palette (`Ctrl+K`)
+
+| | |
+|:---:|:---:|
+| ![Artist page](./Screenshots/artist.png) | ![Album page](./Screenshots/album.png) |
+| Artist page | Album page |
+| ![Playlist](./Screenshots/playlist.png) | ![Liked Songs](./Screenshots/liked-songs.png) |
+| Playlist | Liked Songs with genre filters |
+
+Keep it on top of everything else with the mini player:
+
+<p align="center">
+  <img src="./Screenshots/mini-player.png" alt="The userfy mini player" width="400">
+</p>
+
+### Made for you
+
+- Home shelves, Daily Mixes, a daylist, Discover Weekly, Release Radar and top mixes, all worked out on your PC
+- Song and artist radio, autoplay and smart shuffle
+- An optional AI DJ and AI playlists that run entirely on your PC
+- Wrapped every December 24th, and listening stats all year
+
+| | |
+|:---:|:---:|
+| ![Made For You](./Screenshots/made-for-you.png) | ![Stats](./Screenshots/stats.png) |
+| Made For You and your top mixes | Listening stats |
+
+Every December 24th, userfy wraps up your year in music, moving in time to your top song:
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131" width="640" controls></video>
+</p>
+
+### Lyrics
+
+- Synced lyrics from `.lrc` files or tags, in the side rail and full screen
+
+| | |
+|:---:|:---:|
+| ![Full-screen lyrics](./Screenshots/lyrics.png) | ![AI DJ](./Screenshots/ai-dj.png) |
+| Full-screen synced lyrics | The AI DJ |
+
+### More music
+
+- Optional Tidal sign-in to stream, like and download what you don't own as tagged FLAC
+- YouTube Music as a song source: search, play and download, ad-free, with no account
+- Import Spotify playlists by link, or your whole Spotify data export
+
+| | |
+|:---:|:---:|
+| ![Search](./Screenshots/search.png) | ![Tidal album](./Screenshots/tidal.png) |
+| Search across your library and Tidal | A Tidal album, ready to download |
+
+### Podcasts, audiobooks and books
+
+- Podcasts, audiobooks and audio CDs (play, rip and burn)
+- Podcast ad skipping and read-along transcripts, made on your PC
+- Books, comics and manga readers, read aloud, and free public-domain books
+
+| | |
+|:---:|:---:|
+| ![Books](./Screenshots/books.png) | ![Get books](./Screenshots/get-books.png) |
+| Books, comics and manga | Free books from public-domain sources |
+
+<p align="center">
+  <img src="./Screenshots/podcast.png" alt="Podcast transcript" width="70%"><br>
+  Podcasts with ad skipping and read-along transcripts
+</p>
+
+### On every device
+
+- Phone apps for iPhone and Android that work on their own (make your account and friend code right on the phone), or with a PC: play its library over home Wi-Fi, download songs to keep, and stay in sync
+- Connect: move playback between your PC, phone, TVs and speakers (DLNA, Google Cast, AirPlay)
+- An Android TV app, driven with the remote: Home, Search, Your Library and a big Now Playing with synced lyrics
+- Auto-updates
+
+<p align="center">
+  <img src="./Screenshots/connect.png" alt="Connect" width="70%"><br>
+  Connect: move playback to your phone, a TV or a speaker
+</p>
+
+### With friends
+
+- Friends, Friend activity, Blend and Jam (listen together), with no sign-up
+- Discord: show what you're playing as your Discord activity (even from your phone), invite friends to a Jam from Discord, see which Discord friends use userfy and add them in one tap, and send them songs and playlists
+
+| | |
+|:---:|:---:|
+| ![Friends](./Screenshots/friends.png) | ![Jam](./Screenshots/jam.png) |
+| Friends, with a friend code and no sign-up | Jam: listen together, one shared queue |
+
+## Themes
 
 userfy comes with five themes (userfy, Brutal, Aqua Y2K, Terminal and Frutiger Aero), each in light, dark and OLED, with five color schemes:
 
@@ -37,84 +160,14 @@ userfy comes with five themes (userfy, Brutal, Aqua Y2K, Terminal and Frutiger A
   <img src="./Screenshots/theme-oled.png" alt="The userfy theme, OLED, crimson" width="32%">
 </p>
 
-| | |
-|:---:|:---:|
-| ![Made For You](./Screenshots/made-for-you.png) | ![Stats](./Screenshots/stats.png) |
-| Made For You and your top mixes | Listening stats |
-| ![Artist page](./Screenshots/artist.png) | ![Album page](./Screenshots/album.png) |
-| Artist page | Album page |
-| ![Playlist](./Screenshots/playlist.png) | ![Liked Songs](./Screenshots/liked-songs.png) |
-| Playlist | Liked Songs with genre filters |
-| ![Search](./Screenshots/search.png) | ![Tidal album](./Screenshots/tidal.png) |
-| Search across your library and Tidal | A Tidal album, ready to download |
-| ![Full-screen lyrics](./Screenshots/lyrics.png) | ![AI DJ](./Screenshots/ai-dj.png) |
-| Full-screen synced lyrics | The AI DJ |
-
-New in 2.0.0: friends, Jam, Connect, books and comics, and podcast transcripts:
-
-| | |
-|:---:|:---:|
-| ![Friends](./Screenshots/friends.png) | ![Jam](./Screenshots/jam.png) |
-| Friends, with a friend code and no sign-up | Jam: listen together, one shared queue |
-| ![Connect](./Screenshots/connect.png) | ![Books](./Screenshots/books.png) |
-| Connect: move playback to your phone, a TV or a speaker | Books, comics and manga |
-| ![Get books](./Screenshots/get-books.png) | ![Podcast transcript](./Screenshots/podcast.png) |
-| Free books from public-domain sources | Podcasts with ad skipping and read-along transcripts |
-
-Keep it on top of everything else with the mini player:
-
-<p align="center">
-  <img src="./Screenshots/mini-player.png" alt="The userfy mini player" width="400">
-</p>
-
-Every December 24th, userfy wraps up your year in music, moving in time to your top song:
-
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131" width="640" controls></video>
-</p>
-
-## Download
-
-Grab the latest version for your device from the [Releases page](../../releases/latest).
-
-| Platform | Formats |
-|----------|---------|
-| Windows 10 / 11 (64-bit) | `.exe` installer (per user, no admin) |
-| macOS 10.15 or later (Intel and Apple silicon) | `.dmg` |
-| Linux, 64-bit PC or ARM64 (Raspberry Pi 4/5) | AppImage, `.deb` or `.rpm` |
-| iPhone, iOS 16 or later | installed from the PC or Mac app (Settings > About > Install on your phone), or the `.ipa` |
-| Android 10 or later | `.apk`, or installed from the PC or Mac app |
-| Android TV (64-bit) | the same `.apk`: it shows up in the TV's app row |
-
-userfy updates itself after that. This repository is the download page and issue tracker; the app itself is closed source.
-
-## Features
-
-- Plays the music already on your drives: MP3, FLAC, WAV, Ogg, Opus and M4A (AAC and ALAC)
-- Home shelves, Daily Mixes, a daylist, Discover Weekly, Release Radar and top mixes, all worked out on your PC
-- Song and artist radio, autoplay and smart shuffle
-- Synced lyrics from `.lrc` files or tags, in the side rail and full screen
-- Artist pages, album pages, credits and a now playing rail
-- Playlists, folders, smart playlists, drag and drop, undo and Recently deleted
-- Wrapped every December 24th, and listening stats all year
-- Import Spotify playlists by link, or your whole Spotify data export
-- Optional Tidal sign-in to stream, like and download what you don't own as tagged FLAC
-- Podcasts, audiobooks and audio CDs (play, rip and burn)
-- Gapless playback, crossfade, volume leveling, a 10-band EQ and a sleep timer
-- An optional AI DJ and AI playlists that run entirely on your PC
-- Mini player, media keys, global hotkeys and a command palette (`Ctrl+K`)
-- Phone apps for iPhone and Android that play your PC's library over home Wi-Fi, download songs to keep, and stay in sync
-- Friends, Friend activity, Blend and Jam (listen together), with no sign-up
-- Connect: move playback between your PC, phone, TVs and speakers (DLNA, Google Cast, AirPlay)
-- Books, comics and manga readers, read aloud, and free public-domain books
-- Podcast ad skipping and read-along transcripts, made on your PC
-- An Android TV app, driven with the remote: Home, Search, Your Library and a big Now Playing with synced lyrics
-- Discord: show what you're playing as your Discord activity (even from your phone), invite friends to a Jam from Discord, see which Discord friends use userfy and add them in one tap, and send them songs and playlists
-- Auto-updates
-
 ## Privacy
 
-Your library, plays, likes and playlists live in a database on your PC. No ads, no analytics, no sign-up. userfy only goes online for things you turn on: Tidal, a Spotify import, podcasts, online book sources, Discord presence, the one-time AI model download and the update check. Friends, Blends, Jams, Friend activity, Connect and syncing your phone or other PCs go through userfy's own small relay server. It passes along only what those features need (your Profile name and picture, what you're playing if Friend activity is on, the Jam queue, and with Discord presence on, the cover of the song you're playing, deleted a day after it was last shown), and the sync data it keeps for your devices is encrypted. A linked phone plays your PC's songs straight over your home Wi-Fi.
+**No ads, no analytics, no sign-up.** Your library, plays, likes and playlists live in a database on your PC.
+
+- **Online only when you turn it on.** userfy only goes online for things you turn on: Tidal, YouTube Music, a Spotify import, podcasts, online book sources, Discord presence, the one-time AI model download and the update check.
+- **A small relay for the social features.** Friends, Blends, Jams, Friend activity, Connect and syncing your phone or other PCs go through userfy's own small relay server. It passes along only what those features need: your Profile name and picture, what you're playing if Friend activity is on, the Jam queue, and with Discord presence on, the cover of the song you're playing, deleted a day after it was last shown.
+- **Encrypted sync.** The sync data the relay keeps for your devices is encrypted.
+- **Your songs stay at home.** A linked phone plays your PC's songs straight over your home Wi-Fi.
 
 ## Bugs
 
