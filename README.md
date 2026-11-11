@@ -84,6 +84,10 @@ Keep it on top of everything else with the mini player:
 Every December 24th, userfy wraps up your year in music, moving in time to your top song:
 
 <p align="center">
+  <img src="./Screenshots/wrapped.png" alt="userfy Wrapped" width="70%">
+</p>
+
+<p align="center">
   <video src="https://github.com/user-attachments/assets/37073b27-16aa-4c35-8b22-b30084351131" width="640" controls></video>
 </p>
 
@@ -104,8 +108,10 @@ Every December 24th, userfy wraps up your year in music, moving in time to your 
 
 | | |
 |:---:|:---:|
-| ![Search](./Screenshots/search.png) | ![Tidal album](./Screenshots/tidal.png) |
-| Search across your library and Tidal | A Tidal album, ready to download |
+| ![Search](./Screenshots/search.png) | ![YouTube Music](./Screenshots/youtube.png) |
+| Search across your library, Tidal and YouTube Music | A YouTube Music song playing, with synced lyrics |
+| ![Tidal album](./Screenshots/tidal.png) | ![Prompted Playlist](./Screenshots/ai-playlist.png) |
+| A Tidal album, ready to download | Prompted Playlists, made by the AI on your PC |
 
 ### Podcasts, audiobooks and books
 
@@ -117,6 +123,8 @@ Every December 24th, userfy wraps up your year in music, moving in time to your 
 |:---:|:---:|
 | ![Books](./Screenshots/books.png) | ![Get books](./Screenshots/get-books.png) |
 | Books, comics and manga | Free books from public-domain sources |
+| ![Podcasts](./Screenshots/podcasts.png) | ![Audiobooks](./Screenshots/audiobooks.png) |
+| Podcasts and new episodes | Audiobooks |
 
 <p align="center">
   <img src="./Screenshots/podcast.png" alt="Podcast transcript" width="70%"><br>
@@ -129,6 +137,22 @@ Every December 24th, userfy wraps up your year in music, moving in time to your 
 - Connect: move playback between your PC, phone, TVs and speakers (DLNA, Google Cast, AirPlay)
 - An Android TV app, driven with the remote: Home, Search, Your Library and a big Now Playing with synced lyrics
 - Auto-updates
+
+<p align="center">
+  <img src="./Screenshots/phone-home.png" alt="Home on a phone" width="24%">
+  <img src="./Screenshots/phone-now-playing.png" alt="Now Playing on a phone" width="24%">
+  <img src="./Screenshots/phone-lyrics.png" alt="Synced lyrics on a phone" width="24%">
+  <img src="./Screenshots/phone-library.png" alt="Your Library on a phone" width="24%">
+</p>
+<p align="center">
+  <img src="./Screenshots/phone-search.png" alt="Search on a phone" width="24%">
+  <img src="./Screenshots/phone-artist.png" alt="An artist page on a phone" width="24%">
+  <img src="./Screenshots/phone-playlist.png" alt="A playlist on a phone" width="24%">
+  <img src="./Screenshots/phone-onboarding.png" alt="Making an account on a phone" width="24%">
+</p>
+<p align="center">
+  The phone app: Home, Now Playing, synced lyrics, Your Library, Search, an artist, a playlist, and making your account
+</p>
 
 <p align="center">
   <img src="./Screenshots/connect.png" alt="Connect" width="70%"><br>
@@ -148,6 +172,10 @@ Every December 24th, userfy wraps up your year in music, moving in time to your 
 ## Themes
 
 userfy comes with five themes (userfy, Brutal, Aqua Y2K, Terminal and Frutiger Aero), each in light, dark and OLED, with five color schemes:
+
+<p align="center">
+  <img src="./Screenshots/settings.png" alt="Settings" width="70%">
+</p>
 
 <p align="center">
   <img src="./Screenshots/theme-userfy.png" alt="The userfy theme, dark, caramel" width="32%">
